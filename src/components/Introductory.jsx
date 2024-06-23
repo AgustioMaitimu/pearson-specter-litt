@@ -9,7 +9,7 @@ const signature = La_Belle_Aurore({ subsets: ['latin'], weight: '400' });
 export default function Introductory() {
   return (
     <div
-      className={`${font.className} text flex min-h-screen w-full flex-col items-center bg-white p-6 text-gray-600 lg:flex-row lg:justify-around`}
+      className={`${font.className} text flex min-h-screen w-full flex-col items-center bg-white p-6 pb-28 pt-36 text-gray-600 lg:flex-row lg:justify-around`}
     >
       <div className="w-full lg:max-w-[45vw] 2xl:max-w-[40vw]">
         <h1 className="mb-4 text-lg font-semibold text-[#F2A14B]">
@@ -38,7 +38,7 @@ export default function Introductory() {
         </h1>
         <h1 className="mb-14 text-sm">Managing Partner</h1>
       </div>
-      <div className="aspect-4/5 shadow-1 xs:w-[50vw] relative h-auto w-full bg-red-400 lg:w-96">
+      <div className="shadow-1 relative aspect-4/5 h-auto w-full bg-red-400 xs:w-[50vw] lg:w-96">
         <Image
           priority
           alt="jessica pearson"
