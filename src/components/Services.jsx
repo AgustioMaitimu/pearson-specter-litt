@@ -14,7 +14,7 @@ export default function Services() {
         </h1>
       </div>
       <div className="flex w-full flex-col justify-between px-12 lg:flex-row lg:px-20 xl:px-32">
-        <h1 className="mb-14 lg:w-[35vw] xl:w-[25vw]">
+        <h1 className="mb-14 text-sm lg:w-[35vw] xl:w-[25vw]">
           At our firm, empowering your legal decisions with trusted expertise is
           our top priority. Our seasoned team offers personalized guidance and
           strategic solutions across various legal challenges, ensuring you
@@ -25,8 +25,8 @@ export default function Services() {
         </h1>
         <div className="flex flex-row flex-wrap justify-between gap-8 lg:w-[45vw]">
           <div className=" md:w-[47%]">
-            <h1 className="mb-3 text-xl lg:text-3xl">Family Law</h1>
-            <p>
+            <h1 className="mb-3 text-xl lg:text-2xl">Family Law</h1>
+            <p className="text-sm">
               Navigate the complexities of family dynamics with compassionate
               support and expert guidance. Whether it’s divorce, custody
               battles, or adoption processes, we’re here to empower your
@@ -34,8 +34,8 @@ export default function Services() {
             </p>
           </div>
           <div className=" md:w-[47%]">
-            <h1 className="mb-3 text-xl lg:text-3xl">Wills, Trust & Probate</h1>
-            <p>
+            <h1 className="mb-3 text-xl lg:text-2xl">Wills, Trust & Probate</h1>
+            <p className="text-sm">
               Secure your legacy and ensure your wishes are honored with
               comprehensive estate planning services. From drafting wills to
               establishing trusts and navigating the probate process, our
@@ -43,8 +43,8 @@ export default function Services() {
             </p>
           </div>
           <div className=" md:w-[47%]">
-            <h1 className="mb-3 text-xl lg:text-3xl">Property Law</h1>
-            <p>
+            <h1 className="mb-3 text-xl lg:text-2xl">Property Law</h1>
+            <p className="text-sm">
               Protect your property rights and investments with our seasoned
               legal counsel. Whether you’re buying, selling, leasing, or facing
               disputes, we empower your real estate decisions with tailored
@@ -52,8 +52,8 @@ export default function Services() {
             </p>
           </div>
           <div className=" md:w-[47%]">
-            <h1 className="mb-3 text-xl lg:text-3xl">Disputes & Claims</h1>
-            <p>
+            <h1 className="mb-3 text-xl lg:text-2xl">Disputes & Claims</h1>
+            <p className="text-sm">
               Resolve legal disputes with confidence and strategic acumen. Our
               experienced attorneys specialize in civil litigation, from
               personal injury claims to contract disputes, offering the support
