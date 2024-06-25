@@ -5,7 +5,8 @@ const font = Noto_Serif({ subsets: ['latin'] });
 export default function Case_Studies() {
   return (
     <div
-      className={`${font.className} flex min-h-screen flex-col items-center justify-center gap-12 bg-[#F2EADE] px-16 py-20 text-[#0C203B] lg:items-start`}
+      name="cases"
+      className={`${font.className} py4 flex min-h-screen flex-col items-center justify-center gap-12 bg-[#F2EADE] px-16 py-40 text-[#0C203B] lg:items-start`}
     >
       <div className="w-[60vw] md:w-[70vw] lg:ml-36 lg:w-[60vw] xl:ml-48 2xl:w-[45vw]">
         <p className="mb-5">Case Studies</p>

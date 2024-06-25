@@ -6,7 +6,8 @@ const font = Noto_Serif({ subsets: ['latin'] });
 export default function Team() {
   return (
     <div
-      className={`${font.className} flex min-h-screen flex-col items-center gap-20 bg-[#876343] py-20 font-medium text-white lg:items-start`}
+      name="team"
+      className={`${font.className} flex min-h-screen flex-col items-center gap-20 bg-[#876343] py-40 font-medium text-white lg:items-start`}
     >
       <div className="w-[60vw] lg:ml-36 lg:w-[50vw]">
         <p className="mb-5">People</p>

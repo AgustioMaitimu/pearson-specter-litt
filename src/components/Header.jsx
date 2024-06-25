@@ -1,8 +1,9 @@
 'use client';
 
 import { Noto_Serif, Playfair_Display } from 'next/font/google';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useScrollDirection } from 'react-use-scroll-direction';
+import { Link, Element, animateScroll as scroll } from 'react-scroll';
 
 const font = Noto_Serif({ subsets: ['latin'] });
 const logo = Playfair_Display({ subsets: ['latin'] });
@@ -17,13 +18,27 @@ export default function Header() {
         <h1>♦ Direct Line (012) 345-6789 ♦ Available 24/7</h1>
       </div>
       <div className="hidden w-full items-center justify-between border-b-[1px] border-gray-400 bg-[#F2EADE] px-6 py-4 text-[#0C203B] md:flex xl:px-14">
-        <h1 className={`${logo.className} text-3xl font-semibold`}>PSL</h1>
+        <Link
+          to="introductory"
+          smooth
+          duration={1000}
+          className={`${logo.className} cursor-pointer text-3xl font-semibold`}
+        >
+          PSL
+        </Link>
         <div className="flex gap-6 text-xs font-semibold uppercase">
-          <p className="cursor-pointer">Services</p>
-          <p className="cursor-pointer">People</p>
-          <p className="cursor-pointer">Portfolio</p>
-          <p className="cursor-pointer">Case Studies</p>
-          <p className="cursor-pointer">Contact</p>
+          <Link to="services" smooth duration={1000} className="cursor-pointer">
+            Services
+          </Link>
+          <Link to="team" smooth duration={1000} className="cursor-pointer">
+            People
+          </Link>
+          <Link to="cases" smooth duration={1000} className="cursor-pointer">
+            Case Studies
+          </Link>
+          <Link to="contact" smooth duration={1000} className="cursor-pointer">
+            Contact
+          </Link>
         </div>
       </div>
     </div>
