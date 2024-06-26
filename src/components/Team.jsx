@@ -10,7 +10,7 @@ export default function Team() {
       className={`${font.className} flex min-h-screen flex-col items-center gap-20 bg-[#876343] py-40 font-medium text-white lg:items-start`}
     >
       <div className="w-[60vw] lg:ml-36 lg:w-[50vw]">
-        <p className="mb-5">People</p>
+        <p className="mb-5 font-semibold">PEOPLE</p>
         <h1 className="text-4xl leading-snug lg:text-6xl">
           Unparalleled expertise at your service
         </h1>

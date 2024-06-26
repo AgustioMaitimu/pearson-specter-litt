@@ -13,8 +13,13 @@ export default function Header() {
 
   return (
     <div className={`${font.className} fixed top-0 z-50 w-full`}>
-      <div className="flex w-full flex-wrap gap-2 bg-[#0C203B] px-8 py-4 text-sm text-[#F2EADE] md:gap-1">
-        <h1>♦ 601 E 54th St, New York City, New York, 10000, USA</h1>
+      <div className="flex w-full flex-wrap gap-2 border-b-[1px] border-gray-400 bg-[#0C203B] px-8 py-4 text-sm text-[#F2EADE] md:gap-1 md:border-b-0">
+        <a
+          href="https://maps.app.goo.gl/McTWCXgKrGhyHHLx7"
+          className="underline-offset-4 hover:underline"
+        >
+          ♦ 601 E 54th St, New York City, New York, 10000, USA
+        </a>
         <h1>♦ Direct Line (012) 345-6789 ♦ Available 24/7</h1>
       </div>
       <div className="hidden w-full items-center justify-between border-b-[1px] border-gray-400 bg-[#F2EADE] px-6 py-4 text-[#0C203B] md:flex xl:px-14">
