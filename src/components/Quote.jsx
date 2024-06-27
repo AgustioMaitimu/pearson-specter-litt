@@ -2,19 +2,6 @@
 import React, { useEffect, useRef } from 'react';
 
 function Quote() {
-  useEffect(() => {
-    console.log(document.body.offsetHeight);
-    window.addEventListener('scroll', () => {
-      console.log(window.scrollY);
-    });
-
-    console.log(quoteRef.current.style);
-
-    quoteRef.current.style.transform = 'translate3d(0px, 100px, 0px)';
-  }, []);
-
-  const quoteRef = useRef();
-
   return (
     <div
       ref={quoteRef}
