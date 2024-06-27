@@ -21,4 +21,5 @@ html::-webkit-scrollbar {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
+  transform: translateY(120px);
 }
