@@ -10,7 +10,7 @@ export default function Introductory() {
   return (
     <div
       name="introductory"
-      className={`${font.className} text flex min-h-screen w-full flex-col items-center bg-[#F2EADE] px-6 pt-40 text-[#0C203B] lg:flex-row lg:justify-around`}
+      className={`${font.className} text z-40 flex min-h-screen w-full flex-col items-center bg-[#F2EADE] px-6 pt-40 text-[#0C203B] lg:flex-row lg:justify-around`}
     >
       <div className="w-full lg:max-w-[45vw] 2xl:max-w-[40vw]">
         <h1 className="mb-4 font-semibold text-[#F2A14B]">— Our Commitment</h1>
@@ -37,7 +37,7 @@ export default function Introductory() {
         </h1>
         <h1 className="mb-14 text-sm">Managing Partner</h1>
       </div>
-      <div className="shadow-1 relative z-0 aspect-4/5 h-auto w-full bg-red-400 xs:w-[50vw] lg:w-80 2xl:w-96">
+      <div className="shadow-1 relative z-40 aspect-4/5 h-auto w-full bg-red-400 xs:w-[50vw] lg:w-80 2xl:w-96">
         <Image
           priority
           alt="jessica pearson"

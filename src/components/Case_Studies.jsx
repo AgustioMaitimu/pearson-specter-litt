@@ -6,7 +6,7 @@ export default function Case_Studies() {
   return (
     <div
       name="cases"
-      className={`${font.className} flex min-h-screen flex-col items-center justify-center gap-12 bg-[#F2EADE] px-16 py-40 text-[#0C203B] lg:items-start`}
+      className={`${font.className} z-40 flex min-h-screen flex-col items-center justify-center gap-12 bg-[#F2EADE] px-16 py-40 text-[#0C203B] lg:items-start`}
     >
       <div className="w-[60vw] md:w-[70vw] lg:ml-36 lg:w-[60vw] xl:ml-48 2xl:w-[45vw]">
         <p className="mb-5">CASE STUDIES</p>

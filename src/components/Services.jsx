@@ -6,7 +6,7 @@ export default function Services() {
   return (
     <div
       name="services"
-      className={`${font.className} flex min-h-screen w-full flex-col items-center justify-center bg-[#F2EADE] py-40 text-[#0C203B]`}
+      className={`${font.className} z-40 flex min-h-screen w-full flex-col items-center justify-center bg-[#F2EADE] py-40 text-[#0C203B]`}
     >
       <div className="mb-14 flex w-full flex-col items-start px-12 sm:px-20 lg:items-start lg:px-48">
         <p className="mb-3 text-sm font-semibold">SERVICES</p>

@@ -7,7 +7,7 @@ export default function Team() {
   return (
     <div
       name="team"
-      className={`${font.className} flex min-h-screen flex-col items-center gap-20 bg-[#876343] py-40 font-medium text-white lg:items-start`}
+      className={`${font.className} z-40 flex min-h-screen flex-col items-center gap-20 bg-[#876343] py-40 font-medium text-white lg:items-start`}
     >
       <div className="w-[60vw] lg:ml-36 lg:w-[50vw]">
         <p className="mb-5 font-semibold">PEOPLE</p>

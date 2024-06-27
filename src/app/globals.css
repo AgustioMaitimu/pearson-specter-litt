@@ -16,3 +16,9 @@ html::-webkit-scrollbar {
   width: 0;
   height: 0;
 }
+
+.ab-lincoln {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}

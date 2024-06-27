@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <div
       name="contact"
-      className={`${font.className} flex flex-col gap-20 bg-[#0C203B] px-7 pb-4 pt-40 text-white`}
+      className={`${font.className} z-40 flex min-h-screen flex-col gap-20 bg-[#0C203B] px-7 pb-4 pt-40 text-white lg:justify-between`}
     >
       <div className="flex flex-col gap-8 lg:flex-row lg:justify-around">
         <div id="about" className="flex flex-col gap-6 md:w-[60vw] lg:w-[30vw]">
@@ -37,7 +37,7 @@ export default function Contact() {
           <div className="flex flex-col gap-6">
             <div className="flex flex-col gap-6 md:flex-row md:justify-between">
               <div className="flex flex-col gap-1 md:w-[48%]">
-                <label for="fname" className="text-sm">
+                <label htmlFor="fname" className="text-sm">
                   First Name{' '}
                   <span className="text-xs text-gray-300">(required)</span>
                 </label>
@@ -50,7 +50,7 @@ export default function Contact() {
                 />
               </div>
               <div className="flex flex-col gap-1 md:w-[48%]">
-                <label for="lname" className="text-sm">
+                <label htmlFor="lname" className="text-sm">
                   Last Name{' '}
                   <span className="text-xs text-gray-300">(required)</span>
                 </label>
@@ -65,7 +65,7 @@ export default function Contact() {
             </div>
             <div className="flex flex-col gap-6 md:flex-row md:justify-between">
               <div className="flex flex-col gap-1 md:w-[48%]">
-                <label for="email" className="text-sm">
+                <label htmlFor="email" className="text-sm">
                   Email{' '}
                   <span className="text-xs text-gray-300">(required)</span>
                 </label>
@@ -78,7 +78,7 @@ export default function Contact() {
                 />
               </div>
               <div className="flex flex-col gap-1 md:w-[48%]">
-                <label for="phone" className="text-sm">
+                <label htmlFor="phone" className="text-sm">
                   Phone Number{' '}
                   <span className="text-xs text-gray-300">(required)</span>
                 </label>
@@ -94,7 +94,7 @@ export default function Contact() {
           </div>
           <div className="flex flex-col">
             <div className="mb-6">
-              <label for="message" className="text-sm">
+              <label htmlFor="message" className="text-sm">
                 Message{' '}
               </label>
               <textarea
