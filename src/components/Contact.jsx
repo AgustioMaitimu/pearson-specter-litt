@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <div
       name="contact"
-      className={`${font.className} z-40 flex min-h-screen flex-col gap-20 bg-[#0C203B] px-7 pb-4 pt-40 text-white lg:justify-between`}
+      className={`${font.className} z-40 flex min-h-screen flex-col gap-20 bg-[#0C203B] px-7 pb-6 pt-40 text-white lg:justify-center`}
     >
       <div className="flex flex-col gap-8 lg:flex-row lg:justify-around">
         <div id="about" className="flex flex-col gap-6 md:w-[60vw] lg:w-[30vw]">
@@ -112,10 +112,10 @@ export default function Contact() {
       </div>
       <div
         id="footer"
-        className="flex w-full items-center justify-between text-sm"
+        className="flex w-full items-center justify-between text-sm lg:px-20"
       >
-        <h1 className="cursor-pointer">Privacy Policy</h1>
-        <h1 className="cursor-pointer">Terms & Conditions</h1>
+        <h1 className="cursor-pointer hover:underline">Privacy Policy</h1>
+        <h1 className="cursor-pointer hover:underline">Terms & Conditions</h1>
       </div>
     </div>
   );
