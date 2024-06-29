@@ -37,7 +37,7 @@ export default function Introductory() {
         </h1>
         <h1 className="mb-14 text-sm">Managing Partner</h1>
       </div>
-      <div className="shadow-1 relative z-40 aspect-4/5 h-auto w-full bg-red-400 xs:w-[50vw] lg:w-80 2xl:w-96">
+      <div className="shadow-1 relative z-40 aspect-4/5 h-auto w-[60vw] xs:w-[50vw] lg:w-80 2xl:w-96">
         <Image
           priority
           alt="jessica pearson"
